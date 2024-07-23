@@ -3,7 +3,7 @@ import platform
 
 def artistname(user):
     if platform.system() == 'Linux':
-        creatorfile='~/kemonocreators.json'
+        creatorfile='kemonocreators.json'
     else:
         creatorfile='%userprofile%\kemonocreators.json'
     with open(creatorfile, encoding='utf-8') as kemonocreator:
