@@ -1,5 +1,6 @@
 import json
 import platform
+import sys
 
 def artistname(user):
     if platform.system() == 'Linux':
